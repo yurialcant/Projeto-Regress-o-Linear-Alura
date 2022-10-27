@@ -34,3 +34,20 @@ nossos valores em 4 casas decimais.
 
 <h1>Análises Gráficas</h1>
 <h2>Analisando o Comportamento da Variável Dependente(Y)</h2>
+Primeiro iremos utilizar o gráfico do tipo Box-plot em nossa variável dependente(y), para verificarmos o comportamento da distribuição da variável dependente, verificando a existência de outliers e se o gráfico demonstra alguma tendência.
+![Captura de Tela (233)](https://user-images.githubusercontent.com/102321564/198375312-4032b875-8171-4e36-8ccf-2e8e3c7f4822.png)
+Em nosso boxp-lot, não possuímos a presença de outliers, agora iremos realizar outros box-plots para avaliarmos nossa variável dependente juntamente com outras variáveis explicativas categóricas.
+![Captura de Tela (234)](https://user-images.githubusercontent.com/102321564/198375871-5d564c16-a659-445e-80cf-1824645c549d.png)
+
+![Captura de Tela (235)](https://user-images.githubusercontent.com/102321564/198376037-45bda128-c8d9-4a3d-9622-df10373b4a85.png)
+![Captura de Tela (236)](https://user-images.githubusercontent.com/102321564/198376111-d41b6c33-2a81-4be8-ad4b-4e533cee4302.png)
+![Captura de Tela (237)](https://user-images.githubusercontent.com/102321564/198376212-ce0513cb-3b53-47ce-8f9b-63fccc52b654.png)
+
+![Captura de Tela (238)](https://user-images.githubusercontent.com/102321564/198376307-414f404c-6b6c-4464-811d-ab5b0a3de3f0.png)
+
+Agora nos utilizaremos de um histograma para analisar a distribuição de frequência da variável dependente.
+![Captura de Tela (239)](https://user-images.githubusercontent.com/102321564/198376719-8b87ae45-a45b-435f-a466-cc1a1a43d8ad.png)
+Como podemos ver nosso gráfico fica bem próximo de uma assemetria, por fim para completar nossas análises gráficas iremos realizar a construção de um gráfico de dispersão entre as variáveis presentes em nosso DataSet, utilizaremos para isso o pairplot, fixando somente uma variável no eixo y.
+
+![Captura de Tela (240)](https://user-images.githubusercontent.com/102321564/198377201-ade54f8b-b86e-4efc-b45b-2dd28241b610.png)
+
