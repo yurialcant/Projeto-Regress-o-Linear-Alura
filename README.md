@@ -61,3 +61,15 @@ Agora utilizaremos outra ferramenta da biblioteca scikit-learn, desta a LinearRe
 Após isso iremos gerar as previsões para os dados de teste utilizando o método predict e obter o coeficiente de determinação para as previsões do nosso modelo com os dados de teste.
 
 ![Captura de Tela (243)](https://user-images.githubusercontent.com/102321564/198379189-49df4ceb-d104-444b-9438-b646131e8015.png)
+
+<h1>Obtendo Previsões Pontuais</h1>
+<h2>Criando um simulador simples</h2>
+Após o nosso modelo já estimado, podemos criar o nosso simulador, para isso basta criarmos valor para nossas variáveis explicativas presentes no DataSet, atribuirmos isso a uma nova variável e realizar a previsão utilizando o método predict em nosso modelo já estimado.
+![Captura de Tela (244)](https://user-images.githubusercontent.com/102321564/198379994-894c7974-9ff6-414c-8a8a-de2719455675.png)
+<h1>Salvando e Carregando o Modelo Estimado</h1>
+Nossa última etapa é utilazarmos a biblioteca pickle para salvarmos nosso modelo de regressão e exportá-lo, para isso basta utilarmos o método open passando o nome que desejamos salvar e o parâmetro wb(write binary) e executar, assim salvando nosso modelo.
+
+![Captura de Tela (245)](https://user-images.githubusercontent.com/102321564/198380702-34c6d05e-3f4b-4708-8f07-ecb661a69d11.png)
+E para testar nosso modelo, podemos abrir outro notebook e importar o modelo, passando as valor que desejamos nas variáveis explicativas.
+![Captura de Tela (246)](https://user-images.githubusercontent.com/102321564/198381057-a2a55134-7167-4c6e-8ef4-60304fd98cd5.png)
+
