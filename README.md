@@ -51,3 +51,13 @@ Como podemos ver nosso gráfico fica bem próximo de uma assemetria, por fim par
 
 ![Captura de Tela (240)](https://user-images.githubusercontent.com/102321564/198377201-ade54f8b-b86e-4efc-b45b-2dd28241b610.png)
 
+<h1>Estimando um Modelo de Regressão</h1>
+Nesta etapa iremos estimar um modelo de regressão, para isso utilizaremos o train_test_split da biblioteca scikit-learn, com ela importada iremos criar uma series do pandas para armazenar nossa variável dependente, depois iremos criar um DataFrame para armazenar as variáveis explicativas e por fim criaremos o nosso dataset de treino e de teste.
+![Captura de Tela (241)](https://user-images.githubusercontent.com/102321564/198378046-5acbb1a0-eac6-4fb3-b18e-459f3b76bff7.png)
+Agora utilizaremos outra ferramenta da biblioteca scikit-learn, desta a LinearRegression, para isso iremos instanciar esta classe após o import, e em seguida utilizaremos o método fit, para estimar o modelo linear utilizando os dados de treino, também iremos obter o coeficiente de determinação do modelo estimado com os dados de treino(lembrando que o resultado do coeficiente sempre deve estar próximo a 1, para o modelo ser viável).
+
+![Captura de Tela (242)](https://user-images.githubusercontent.com/102321564/198378582-2df83eea-e65a-4bb8-92cf-3b869b923cb7.png)
+
+Após isso iremos gerar as previsões para os dados de teste utilizando o método predict e obter o coeficiente de determinação para as previsões do nosso modelo com os dados de teste.
+
+![Captura de Tela (243)](https://user-images.githubusercontent.com/102321564/198379189-49df4ceb-d104-444b-9438-b646131e8015.png)
