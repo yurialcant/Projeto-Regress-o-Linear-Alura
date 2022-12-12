@@ -12,6 +12,8 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=PROJETO%20COMPLETO&color=GREEN&style=for-the-badge"/>
 </p>
 
+![](https://user-images.githubusercontent.com/102321564/198378582-2df83eea-e65a-4bb8-92cf-3b869b923cb7.png#vitrinedev)
+
 Este projeto foi elaborado, durante o curso de Regressão Linear parte I, nosso objetivo é criar um 
 modelo de previsão de preço de casas nos utilizando como base as informações do nosso DataSet(" https://www.kaggle.com/greenwing1985/housepricing"), 
 para isso nos utilizaremos de algumas ferramentas como as funções de análise do DataSet fornecida pela biblioteca Pandas, a construção de gráficos
